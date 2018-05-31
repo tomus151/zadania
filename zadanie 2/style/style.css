@@ -64,11 +64,19 @@ body{
     font-weight:900;
     text-shadow: 7px 5px #030c19;
     font-size: 85.41px;
-    line-height: 24px;
+    /* line-height: 24px; */
     color:#fff;
 }
 .color-yellow{
     color:#fcbd11
+}
+.in-span{
+    font-size:51.93px;
+    display:block;
+    margin-top:-20px;
+}
+.line-height-6000{
+    line-height: 55px
 }
 .wrapper{
     margin: 0 auto;
@@ -109,6 +117,58 @@ body{
 .header{
     display:flex;
     flex-direction:column;
+    position:relative;
+    padding:30px;
+}
+.header__image-logo-wrapper{
+    text-align: right;
+    margin-top:28px;
+    margin-bottom:67px;
+}
+.header__image-logo{
+    width:187px;
+}
+.header__over-6000 > div{
+    max-width:400px;
+}
+.header__over-6000{
+    display:flex;
+}
+.header__over-6000 > span{
+    margin-right: 22px;
+}
+.header__main-win{
+    margin-top:130px;
+    text-align: right;
+}
+.header__counter-and-inscriptions{
+    display:flex;
+}
+.header__counter-and-inscriptions div:nth-child(1){
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.header__counter-and-inscriptions-right-div{
+    margin-left:130px;
+    margin-top:110px;
+}
+.header__counter-and-inscriptions-right-div p{
+    margin-right:-40px;
+}
+.header__counter-and-inscriptions-right-div span{
+    font-size:70px;
+}
+.header__games-played-inscription{
+    display:block;
+    font-size:16px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+}
+.jackpot-image{
+    position:absolute;
+    top:115px;
+    left:238px;
 }
 .section-game{
     display:flex;
