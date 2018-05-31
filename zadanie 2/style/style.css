@@ -1,0 +1,63 @@
+@font-face {
+    font-family: MyriadPro-Bold;
+    src: url("../fonts/MyriadProB.ttf") format("truetype");
+}
+.font-montserrat-white{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+}
+.white-bold-inscription{
+    font-family: 'MyriadPro-Bold', sans-serif;
+    font-weight:900;
+    text-shadow: 7px 5px #030c19;
+    font-size: 85.41px;
+    line-height: 24px;
+    color:#fff;
+}
+.color-yellow{
+    color:#fcbd11
+}
+.wrapper{
+    margin: 0 auto;
+    max-width:1914px;
+    width:100%;
+    background-color: #010e17;
+    background-image: url("../images/warstwa3-min.png");
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+}
+.wrapper:before{
+    content: url('../images/warstwa6-min.png');
+    position:absolute;
+    top:0px;
+    left:0;
+}
+.wrapper:after{
+    content: url('../images/warstwa7-min.png');
+    position:absolute;
+    bottom:-4px;
+    right:0;
+}
+.section-game{
+    display:flex;
+    width:60%;
+    margin:0 auto;
+    border: 1px solid #ffc714;
+
+}
+.game-rule-inscription-wrapper{
+    width:223px;
+    height:62px;
+    background:#ffc714;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-rule-inscription-wrapper span{
+    font-family: 'Montserrat', sans-serif;
+    color:#0c1e29;
+    font-weight: 600;
+    font-size:24px;
+
+}
