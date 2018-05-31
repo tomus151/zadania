@@ -118,7 +118,7 @@ body{
     flex-direction:column;
     position:relative;
     padding:30px;
-    margin-bottom:170px;
+    margin-bottom:120px;
 }
 .header__image-logo-wrapper{
     text-align: right;
@@ -132,13 +132,15 @@ body{
 }
 .header__over-6000{
     display:flex;
+    margin-top:28px;
 }
 .header__over-6000 > span{
     margin-right: 22px;
 }
 .header__main-win{
-    margin-top:130px;
+    margin-top:106px;
     text-align: right;
+    padding-right:25px;
 }
 .header__counter-and-inscriptions{
     display:flex;
@@ -147,6 +149,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding-bottom:14px;
 }
 .header__counter-and-inscriptions-right-div{
     margin-left:130px;
